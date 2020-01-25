@@ -20,6 +20,7 @@ public class Chef implements Runnable {
 				eaten++;
 				System.out.println(Thread.currentThread().getName() + " made and ate a sandwich. Total sandwiches eaten: " + eaten);
 			}
+			notifyAll();
 		}
 	}
 }

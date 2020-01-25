@@ -26,14 +26,17 @@ public class Agent implements Runnable {
 					newIngr[0] = true;  // PUT bread on the table
 					newIngr[1] = true;  // PUT peanut butter on the table
 					newIngr[2] = false; // DON'T PUT jam on the table
+					break;
 				case 1:
 					newIngr[0] = true;  // PUT bread on the table
 					newIngr[1] = false; // DON'T PUT peanut butter on the table
 					newIngr[2] = true;  // PUT jam on the table
+					break;
 				case 2:
 					newIngr[0] = false; // DON'T PUT bread on the table
 					newIngr[1] = true;  // PUT peanut butter on the table
 					newIngr[2] = true;  // PUT jam on the table
+					break;
 				}
 
 				table.set(newIngr);

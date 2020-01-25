@@ -8,8 +8,6 @@ public class Table {
 				wait();
 			} catch (InterruptedException e) {}
 		}
-		
-		notifyAll();
 		return ingr;
 	}
 	

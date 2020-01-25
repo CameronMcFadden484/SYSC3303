@@ -1,4 +1,3 @@
-import java.util.Random;
 
 public class ChefAgent {
 
@@ -21,7 +20,5 @@ public class ChefAgent {
 		chef2Thread.start();
 		chef3Thread.start();
 		orangeThread.start();
-		orange.run();
-		
 	}
 }
